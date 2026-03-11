@@ -46,14 +46,6 @@ p {
 
 /* Mobile */
 @media (max-width: 768px) {
-    body {
-        font-size: 18px;
-        padding: 16px;
-    }
-
-    h1 {
-        margin-bottom: 20px;
-    }
 
     h1 a {
         background-image: url("../images/kerozene_logo_mobile.png");
