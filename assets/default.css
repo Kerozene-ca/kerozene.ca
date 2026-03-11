@@ -3,8 +3,8 @@ body {
     background: #010101;
     color: white;
     max-width: 900px;
-    margin: auto;
-    font-size: 14px;
+    margin: 0 auto;
+    font-size: 18px;
     padding: 50px;
 }
 
@@ -18,7 +18,8 @@ h1 a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     height: 530px;
     margin: 0 auto;
 }
@@ -33,9 +34,15 @@ p {
 
 /* Mobile */
 @media (max-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+
     h1 a {
         background-image: url("../images/kerozene_logo_mobile.png");
-        width: 512px;
+        width: 100%;
+        max-width: 512px;
         height: 339px;
         background-size: contain;
         background-repeat: no-repeat;
